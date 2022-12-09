@@ -1,0 +1,39 @@
+#hero-section {
+    box-sizing: border-box;
+    height: 650px;
+    display: flex;
+    /* position: relative; */
+    flex-direction: row;
+    gap: 100px;
+
+    /* border: 1px solid; */
+    padding: 4% 6%;
+}
+
+.hero-image {
+    object-fit: cover;
+    width: 700px;
+    flex: 60%;
+}
+
+.hero-article {
+    flex: 40%;
+    color: #153462;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 40%;
+    padding: 3%;
+    /* position: relative; */
+
+    /* border: 1px solid; */
+}
+
+.hero-article h1 {
+    font-size: 3.5rem;
+}
+
+.hero-article p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}

@@ -1,0 +1,155 @@
+.candidate-info {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #BAD1C2;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.candidate-info>* {
+    height: 70px;
+    position: relative;
+    display: flex !important;
+    align-items: center;
+    padding: 5% 0 0 10%;
+    border-radius: 5px;
+    gap: 30px;
+    font-size: 1.1rem;
+    /* border: 1px solid; */
+}
+
+.candidate-info>*>* {
+    border: 0px solid;
+}
+
+.candidate-info button {
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.resume {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding: 0;
+    justify-content: center;
+    /* border: 1px solid; */
+}
+
+.resume button {
+    background: none;
+    border: none;
+    color: blue;
+}
+
+.note {
+    padding-bottom: 5%;
+    /* border: 1px solid; */
+}
+
+.contact {
+    position: relative;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    height: 150px;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    gap: 40px;
+    /* padding-bottom: 2%; */
+    padding-top: 8%;
+
+    /* border: 1px solid; */
+}
+
+.contact>* {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.email button {
+    position: absolute;
+    background-image: linear-gradient(to right, #141E30 0%, #243B55 51%, #141E30 100%);
+    top: 32px;
+    right: 0px;
+    padding: 1% 2%;
+    color: #eee;
+}
+
+.review-form {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 5%;
+}
+
+.remark {
+    flex: 70%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    padding: 1% 5%;
+
+    /* border: 1px solid; */
+}
+
+.remark input {
+    width: 60%;
+    padding: 1%;
+    font-size: 1rem;
+}
+
+.review {
+    display: flex;
+    justify-content: flex-end;
+    flex: 40%;
+    padding-right: 3%;
+    /* border: 1px solid; */
+}
+
+.review button {
+    color: aliceblue;
+    width: 50%;
+    background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%);
+    padding: 2% 5%;
+}
+
+
+.btn-grad {
+
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

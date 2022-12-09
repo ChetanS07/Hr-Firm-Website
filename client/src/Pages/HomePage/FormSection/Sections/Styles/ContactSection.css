@@ -1,0 +1,104 @@
+#form-conctact-section {
+    flex: 50%;
+    box-sizing: border-box;
+    padding: 0% 4%;
+    /* display: flex; */
+
+    /* border: 1px solid; */
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    height: 100%;
+    width: 95%;
+
+    /* border: 1px solid; */
+}
+
+.contact-image-section {
+    /* flex: 40%; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* padding: 3%; */
+    gap: 10%;
+    border-radius: 1rem;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    height: 10%;
+
+    /* border: 1px solid; */
+}
+
+
+.contact-image-section-text {
+    font-size: 2rem;
+}
+
+.contact-section-details {
+    /* flex: 30%; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 9%;
+    padding: 5% 2%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    /* border: 1px solid; */
+}
+
+.contact-section-address {
+    /* flex: 30%; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    /* border: 1px solid; */
+}
+
+.working-details {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    font-size: 1.2rem;
+
+    /* border: 1px solid; */
+}
+
+.phone-email-details {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+    width: 100%;
+    /* font-size: 0.5rem; */
+    /* border: 1px solid; */
+    font-size: 1.2rem;
+}
+
+.contact-section-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    font-size: 1.2rem;
+
+    /* border: 1px solid;    */
+}

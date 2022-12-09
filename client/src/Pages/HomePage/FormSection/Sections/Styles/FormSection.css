@@ -1,0 +1,100 @@
+#forms-section {
+    flex: 50%;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+
+    /* border: 1px solid; */
+    /* background-color: aliceblue; */
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 2rem;
+    width: 85%;
+    padding: 10% 5%;
+
+    /* border: 1px solid; */
+}
+
+.form-wrapper input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    border: none;
+    background: #fff;
+    border: 2px solid;
+    /* border-bottom: 2px solid; */
+    padding: 3%;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.name-input {
+    display: flex;
+    padding: 0;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.name-input input {
+    display: block;
+    padding: 10px;
+    width: 45%;
+}
+
+
+.candidate-employer-input {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-radio-btn {
+    display: flex;
+    gap: 50px;
+}
+
+.form-radio-btn div {
+    display: flex;
+    padding: 0 10px;
+    gap: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-resume {
+    width: 60%;
+    background-color: aliceblue;
+    padding: 1%;
+    color: blue;
+    border-radius: 3rem;
+}
+
+.form-btn {
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-btn button {
+    background-image: linear-gradient(to right, #1F1C2C 0%, #928DAB 51%, #1F1C2C 100%);
+    margin: 10px;
+    padding: 2% 10%;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}

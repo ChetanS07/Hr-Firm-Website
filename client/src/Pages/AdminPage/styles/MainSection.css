@@ -1,0 +1,49 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    gap: 2rem;
+}
+
+.status-board {
+    height: 8rem;
+    display: flex;
+    background-color: aliceblue;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.status-board div {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.candidates-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.candidates-info h2 {
+    margin: 4% 0;
+}
+
+.pending-candidates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    /* border: 1px solid; */
+    /* padding: 2%; */
+}
+
+.reviewed-candidates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
